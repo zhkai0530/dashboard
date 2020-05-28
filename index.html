@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="icon" type="image/x-icon" href="images/Logo_16x16.ico">
+		<title>MyCloud[My Cloud]</title>
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<link rel="stylesheet" href="css/login.css">
+		<script src="js/jquery-3.2.1.min.js"></script>
+		<script type="text/javascript" src="js/reg.js"></script>
+	</head>
+	<body>
+		<div class="logPage">
+			<div class="logo"><a href="index.html"><img src="images/logo_WDMyCloud.png"></a></div>
+			<div class="err_info">
+				<p>输入的用户名和密码不正确。</p>
+				<p>请重新输入。</p>
+			</div>
+			<div class="div_form">
+				<div class="form_box">
+					<div class="form_info">
+						<div class="login_info">
+							<p class="user_name"><label for="">设备用户名</label><input type="text" value="admin"></p>
+							<p class="pwd"><label for="">密码</label><input type="password" placeholder="请输入密码"></p>
+						</div>
+					</div>
+					<div class="login_btn">
+						<input type="button" value="登录">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="reselect"><p title="点击可以重新选择是否需要密码">重新选择</p></div>
+		<div class="select_box">
+			<p>是否需要密码？</p>
+			<input type="radio" data-answer="yes" id="yes" name="sel"><label for="yes">需要</label>
+			<input type="radio" data-answer="no" id="no" name="sel"><label for="no">不需要</label>
+		</div>
+	</body>
+</html>

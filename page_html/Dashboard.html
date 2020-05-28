@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8"/>	
+	<link rel="icon" type="image/x-icon" href="../images/Logo_16x16.ico">
+	<title>MyCloud[My Cloud™]</title>
+	<link rel="stylesheet" type="text/css" href="../css/public.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/index.css">
+	<script src="../js/jquery-3.2.1.min.js"></script>
+	<script src="../js/main.js"></script>
+</head>
+<body>
+	<div class="header_box">
+		<header>
+			<div class="header">
+				<div class="logo"></div>
+				<div class="report_box">
+					<ul>
+						<li class="usb_box">
+							<div class="USB_info_1 USB_info pub_click">没有找到USB设备。</div>	
+						</li>
+						<li class="warrning_box">
+							<div class="detail_for_msg  pub_click">
+								<div class="msg_info pub_detail">
+									<div class="notice_msg">
+										<p class="msg">系统还原成功</p>
+										<p class="date"></p>
+										<p class="edit">
+											<span class="delete1"></span>
+											<span class="more"></span>
+										</p>
+										<!-- 634173149@qq.com -->
+									</div>
+								</div>
+								<div class="warrning_info pub_detail">
+									<div class="notice_msg">
+										<p class="msg">网络链路中断</p>
+										<p class="date"></p>
+										<p class="edit">
+											<span class="delete1"></span>
+											<span class="more"></span>
+										</p>
+									</div>
+								</div>
+								<div class="serious_info pub_detail">
+									<div class="notice_msg">
+										<p class="msg">驱动器损坏</p>
+										<p class="date"></p>
+										<p class="edit">
+											<span class="delete1"></span>
+											<span class="more"></span>
+										</p>
+									</div>
+								</div>
+								<div class="err_detail">
+									<p class="err_msg">
+										<span class="icon_msg">信息</span>
+										<span class="icon_warrning">警告</span>
+										<span class="icon_serious">严重</span>
+									</p>
+									<p class="check_all">
+										<input type="button" value="查看全部">
+									</p>
+								</div>	
+							</div>
+						</li>
+						<li class="issue_box">
+							<div class="issue_info pub_click">
+								<ul>
+									<li class="started">入门向导</li>
+									<li class="help">帮助</li>
+									<li class="support">支持</li>
+									<li class="about">关于</li>
+								</ul>
+							</div>	
+						</li>
+						<li class="person_control">
+							<div class="person_info pub_click">
+								<ul>
+									<li class="well">欢迎使用 admin,</li>
+									<li class="sleep">休眠</li>
+									<li class="reboot">重新启动</li>
+									<li class="logout">注销</li>
+								</ul>
+							</div>	
+						</li>
+					</ul>
+				</div>
+			</div>
+		</header>
+		<nav>
+			<ul>
+				<li class="menu_group1 menu_png activation">
+					<div class="menu"></div>
+					<div class="choose">首页</div>
+				</li>
+				<li class="menu_group2 menu_png">
+					<div class="menu"></div>
+					<div class="choose">用户</div>
+				</li>
+				<li class="menu_group3 menu_png">
+					<div class="menu"></div>
+					<div class="choose">共享</div>
+				</li>
+				<li class="menu_group4 menu_png">
+					<div class="menu"></div>
+					<div class="choose">应用</div>
+				</li>
+				<li class="menu_group5 menu_png">
+					<div class="menu"></div>
+					<div class="choose">云访问</div>
+				</li>
+				<li class="menu_group6 menu_png">
+					<div class="menu"></div>
+					<div class="choose">备份</div>
+				</li>
+				<li class="menu_group7 menu_png">
+					<div class="menu"></div>
+					<div class="choose">存储</div>
+				</li>
+				<li class="menu_group8 menu_png">
+					<div class="menu"></div>
+					<div class="choose">设置</div>
+				</li>
+			</ul>
+		</nav>
+	</div>
+	<div id="index" class="index page_pub active">
+		<div class="device_info_box pub_style">
+			<div class="internal_info">
+				<div class="capacity_box device_info_pub">
+					<div class="text_tit tit">
+						<span>容量</span>
+					</div>
+					<div class="capacity_detail detail_pub">
+						<div id="canvas_box">
+							<div class="canvas">
+								<canvas width="241" height="241" id="canvas_1">1.96TB</canvas>
+							</div>
+							<div class="capacity">
+								<span class="p1">1.97</span>
+								<span class="p2">TB</span>
+							</div>
+						</div>
+						<div class="details">
+							<table>
+								<tr>
+									<td><img src="../images/NAS_icn_capacity_videos.png" alt=""></td>
+									<td class="capacity_info">影片<span>200.00Mb</span></td>
+								</tr>
+								<tr>
+									<td><img src="../images/NAS_icn_capacity_photos.png" alt=""></td>
+									<td class="capacity_info">照片<span>200.00Mb</span></td>
+								</tr>
+								<tr>
+									<td><img src="../images/NAS_icn_capacity_music.png" alt=""></td>
+									<td class="capacity_info">音乐<span>200.00Mb</span></td>
+								</tr>
+								<tr>
+									<td><img src="../images/NAS_icn_capacity_others.png" alt=""></td>
+									<td class="capacity_info">其他<span>200.00Mb</span></td>
+								</tr>
+								<tr>
+									<td><img src="../images/NAS_icn_capacity_free-space.png" alt=""></td>
+									<td class="capacity_info">剩余<span>1.97TB</span></td>
+								</tr>
+							</table>
+						</div>
+					</div>
+				</div>
+				<div class="health_box device_info_pub">
+					<div class="text_tit tit">
+						<span>设备</span>
+					</div>
+					<div class="device_detail detail_pub">
+						<div class="device_photo_box">
+							<img src="../images/dev.png" alt="">
+							<div class="">
+							</div>
+						</div>
+						<div class="details">
+							<div class="dig device_info_pub">
+								<div class="dig_tit tit">
+									<span>诊断</span>
+								</div>
+								<div class="info_box">
+									<span></span>
+									<span>健康</span>
+								</div>
+								<div class="more_info_box"></div>
+							</div>
+							<div class="firmware device_info_pub">
+								<div class="firmware_tit tit">
+									<span>固件</span>
+								</div>
+								<div class="info_box">
+									<span></span>
+									<span>2.3.241</span>
+								</div>
+								<div class="more_info_box"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="outside_info device_info_pub">
+				<div class="network out_info_pub">
+					<div class="tit">
+						<span>网络活动</span>
+					</div>
+					<div class="details_info">
+						<canvas id="canvas_2" width="220" height="105"></canvas>
+					</div>
+					<div class="cpu_info_box">
+						<p>CPU</p>
+						<p class="imge" title="0%"></p>
+						<p>RAM</p>
+						<p class="imge" title="0%"></p>
+					</div>
+					<div class="arrow_box"></div>
+				</div>
+				<div class="cloud_device out_info_pub">
+					<div class="tit">
+						<span>云设备</span>
+					</div>
+					<div class="quantity">
+						<span>3</span>
+					</div>
+					<div class="add_icon"></div>
+				</div>
+				<div class="user out_info_pub">
+					<div class="tit">
+						<span>用户</span>
+					</div>
+					<div class="quantity">
+						<span>5</span>
+					</div>
+					<div class="add_icon"></div>
+				</div>
+				<div class="applications out_info_pub">
+					<div class="tit">
+						<span>应用</span>
+					</div>
+					<div class="quantity">
+						<span>2</span>
+					</div>
+					<div class="add_icon add_icn"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="user" class="user page_pub">
+		<div class="pub_style">
+			<div class="set_user_tit">
+				<h3>设置用户</h3>
+			</div>
+			<hr />
+			<div class="person_detail">
+				<div class="add_cx">
+					<div class="select_box">
+						<button class="btn_user active">用户</button>
+						<button class="btn_group">组</button>
+					</div>
+					<div class="user_box">
+						<ul>
+							<li>admin</li>
+							<li>test</li>
+							<li>ceshi</li>
+							<li>ceshi</li>
+							<li>ceshi</li>
+							<li>ceshi</li>
+							<li>ceshi</li>
+							<li>ceshi</li>
+							<li>ceshi</li>
+							<li>ceshi</li>
+						</ul>
+					</div>
+					<div></div>
+				</div>
+				<div class="cx_detail">用户信息</div>
+				<div class="image_box">图片一张</div>
+			</div>
+		</div>
+		
+	</div>
+	<div id="share" class="share page_pub"><div class="pub_style">共享</div></div>
+	<div id="app" class="app page_pub"><div class="pub_style">应用</div></div>
+	<div id="cloud_access" class="cloud_access page_pub"><div class="pub_style">云访问</div></div>
+	<div id="backup" class="backup page_pub"><div class="pub_style">备份</div></div>
+	<div id="storage" class="storage page_pub"><div class="pub_style">存储</div></div>
+	<div id="setting" class="setting page_pub"><div class="pub_style">设置</div></div>
+	<div class="report_mask">
+		<div class="mask_box report">
+			<h3>通知</h3>
+			<div class="mask_info">
+				<p class="mask_tit">系统还原成功</p>
+				<p>系统还原成功</p>
+				<p class="date_for_mask"><span>2020年4月8日 12:00:02</span><span>代码：2020</span></p>
+			</div>
+			<p class="mask_btn"><button>关闭</button></p>
+		</div>
+		<div class="mask_box warnning ">
+			<h3>警告</h3>
+			<div class="mask_info">
+				<p class="mask_tit">RAID卷降级</p>
+				<p>RAID卷降级</p>
+				<p class="date_for_mask"><span>2020年4月8日 12:00:02</span><span>代码：2020</span></p>
+			</div>
+			<p class="mask_btn"><button>关闭</button></p>
+		</div>
+		<div class="mask_box danger">
+			<h3>危险</h3>
+			<div class="mask_info">
+				<p class="mask_tit">启动自毁模式</p>
+				<p>自毁模式已经启动</p>
+				<p class="date_for_mask"><span>2020年4月8日 12:00:02</span><span>代码：2020</span></p>
+			</div>
+			<p class="mask_btn"><button>关闭</button></p>
+		</div>
+	</div>
+</body>
+</html>

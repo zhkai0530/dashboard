@@ -1,0 +1,122 @@
+.logPage{
+	width: 80%;
+	max-width: 960px;
+	margin:0 auto;
+	margin-top: 1.25rem;
+}
+/*****************
+** 错误信息显示与隐藏
+****************/
+.err_info{
+	height:3.125rem;
+	text-align: center;
+	font-size: 0.875rem;
+	color:red;
+}
+.err_info p{
+	display: none;
+}
+/****************
+** 表单样式
+*****************/
+.form_box{
+	width:29.375rem;
+	height:14.625rem;
+	padding: 1.25rem;
+	background-color: #f0f0f0;
+	margin: 0 auto;
+	border:1px solid #dcdcdc;
+}
+.form_info{
+	background-color: #fafafa;
+	padding: 1rem;
+}
+.login_info p{
+	display: flex;
+	justify-content: space-between;
+	margin-top:1.25rem;
+}
+.login_info .pwd{
+	margin-bottom: 2.75rem;
+}
+.login_info p label{
+	font-size: 0.875rem;
+	color:#85939c;
+	line-height: 1.75rem;
+}
+.login_info p input{
+	height:1.75rem;
+	width:12.6875rem;
+	padding-left: 0.625rem;
+	outline: none;
+	background-color: #f0f0f0;
+}
+/**************
+** 登录按钮
+**************/
+.login_btn{
+	margin-top: 1.25rem;
+}
+.login_btn input{
+	display: inline-block;
+	float: right;
+	width: 6rem;
+	height:2rem;
+	line-height: 2rem;
+	color:#fff;
+	background-color:#018be3;
+	outline: none;
+	border:1px solid #ebebeb;
+	border-top-color:#15abff;
+	border-bottom-color:#0067a6;
+}
+/*********
+** 遮罩层
+**********/
+.select_box{
+	position: absolute;
+	top:0;
+	left:0;
+	z-index: 100;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.4);
+	text-align: center;
+}
+.select_box p{
+	padding-top:12rem;
+	color:lightpink;
+	font-size: 2.5rem;
+	margin-bottom:0.625rem;
+	font-weight: bold;
+}
+.select_box input{
+	margin-right: 0.5rem;
+}
+.select_box label{
+	margin-right:1.5rem;
+}
+.select_box label[for="yes"]{
+	color:lightskyblue;
+	font-size: 1.5rem;
+}
+.select_box label[for="no"]{
+	color:lightyellow;
+	font-size: 1.5rem;
+}
+/**
+ *重新选择 
+ */
+.reselect{
+	width: 80%;
+	max-width: 960px;
+	margin:0 auto;
+}
+.reselect p{
+	float:right;
+	border:1px solid #cbcbcb;
+	padding: 0.3125rem 0.625rem;
+	cursor: pointer;
+	background-color: #85939C;
+	color: #fafafa;
+}
